@@ -1,0 +1,85 @@
+* {
+    font-family: system-ui;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #ec6f66; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec6f66, #f3a183); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vh;
+}
+
+h3 {
+    font-size: 4.5vh;
+}
+
+p, ol, ul {
+    font-size: 2.3vh;
+}
+
+.article {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.main-title {
+    padding-top: 5%;
+}
+
+div.list-container{
+    text-align: center;
+    padding-right: 10%;
+}
+
+ul.recipe-list {
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+img {
+    width: 45%;
+    height: auto;
+    padding-left: 25.5%;
+}
+
+.redirect {
+    width: 40%;
+    height: auto;
+    padding-left: 35%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-34 {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
