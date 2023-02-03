@@ -23,20 +23,22 @@ body {
     background: linear-gradient(to right, #ec6f66, #f3a183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h1 {
-    text-align: center;
-    font-size: 10vh;
-    color: #232372;
+header {
+    display: flex;
+    justify-content: space-around;
 }
 
-h3 {
-    font-size: 4.5vh;
-    color: #1b1b59;
+.header-left{
+    font-weight: bold;
 }
 
-p, ol, ul {
-    font-size: 2.3vh;
-    color: #000048;
+.header-right, .links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links, p{
+    padding-right: 10px;
 }
 
 .article {
@@ -57,21 +59,6 @@ ul.recipe-list {
     font-size: 4.6vh;
     display: inline-block;
     text-align: left;
-}
-
-img {
-    width: 40%;
-    height: auto;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-.redirect {
-    width: 40%;
-    height: auto;
-    padding-left: 35%;
-    padding-bottom: 20px;
-    margin-top: 20px;
 }
 
 .button-34 {
