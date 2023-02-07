@@ -201,3 +201,10 @@ ul.recipe-list {
     word-break: break-word;
     border: 0;
 }
+
+footer{
+    background-color: #1F2937;
+    padding: 20px;
+    color: #E5E7EB;
+    font-size: 15px;
+}
