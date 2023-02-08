@@ -120,6 +120,7 @@ body {
 /* hero right */
 
 .image-placeholder img{
+    object-fit: cover;
     width: 500px;
     height: 350px;
     background-color: grey;
@@ -140,7 +141,6 @@ body {
 .content-info {
     display: flex;
     justify-content: center;
-
 }
 
 .content-info img {
@@ -151,10 +151,13 @@ body {
     border-radius: 15px;
     margin: 5px 10px 0px 10px;
 }
+
+
+
 .subtext {
     font-family: 'Roboto', arial;
     opacity: 0.7;
-    padding: 10px 30px;
+    padding: 10px 70px;
 }
 
 /* Quote section */
@@ -171,6 +174,50 @@ body {
     font-style: italic;
     color: #1F2937;
     text-align: left;
+}
+
+.article {
+    text-align: left;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article .quote-section {
+    padding: 20px 30px;
+    justify-content: center;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+
+.quote-section p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+.quote-section .title {
+    font-size: 25px;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.ingredients {
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+}
+
+.ingredients p{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .author {
@@ -208,13 +255,21 @@ body {
     height: 16px;
 } 
 
-.article {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 .main-title {
     padding-top: 5%;
+}
+
+.instructions {
+    padding: 30px 50px;
+}
+
+.instructions p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.instructions li{
+    padding-bottom: 18px;
 }
 
 div.list-container{
@@ -229,6 +284,7 @@ ul.recipe-list {
 }
 
 .button-34 {
+    margin: 25px 0;
     background: #5E5DF0;
     border-radius: 999px;
     box-shadow: #5E5DF0 0 10px 20px -10px;
